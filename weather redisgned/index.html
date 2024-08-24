@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Redesigned</title>
+    <link rel="icon" href="images\clouds.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-section">
+        <div class="back">
+            <h3 class="headings">the.weather</h3>
+            <div class="infos">
+                <div class="temprature">
+                    08°C
+                </div>
+                <div class="place">
+                    London
+                </div>
+            
+            </div>
+        </div>
+        <div class="information">
+            <div class="search">
+                <input type="text" placeholder="Another Location">
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="locationList">
+                <ul class="places">
+                    <li class="Loc" id="place1">Delhi</li>
+                    <li class="Loc" id="place2">Mumbai</li>
+                    <li class="Loc" id="place3">Kolkata</li>
+                    <li class="Loc" id="place4">Chennai</li>
+                    <li class="Loc" id="place5">Patna</li>
+                </ul>
+            </div>
+            <hr class="line">
+            <div class="weather">
+                <h3 class="head">Weather Details</h3>
+                <div class="details">
+                    <span class="type">Clouds</span>
+                    <span class="type" id="type1">scattered clouds</span>
+                </div>
+                <div class="details">
+                    <span class="humidity">Humidity</span>
+                    <span class="humidity" id="humidity1">70%</span>
+                </div>
+                <div class="details">
+                    <span class="wind">Wind</span>
+                    <span class="wind" id="wind1">12km/h</span>
+                </div>
+                <div class="details">
+                    <span class="pressure">Pressure</span>
+                    <span class="pressure" id="pressure1">0.988 atm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
